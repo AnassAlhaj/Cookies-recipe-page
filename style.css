@@ -1,55 +1,50 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #3A2F2F;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #F9F5EB;
+    background-color: #F7F3E9;
 }
 
 h1 {
     color: #8B4513;
     text-align: center;
     margin-bottom: 20px;
-     
 }
 
-.page-title{
+.page-title {
     background-color: #8B4513;
     color: white;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 30px;
+    transition: background-color 0.5s ease;
 }
 
-.page-title h1{
+.page-title h1 {
     color: white;
 }
 
-/* .page-title h1:hover{
-    color:  #8B4513;
-} */
-
-.page-title:hover{
-    background-color:rgb(119, 60, 60);
-    transition: background-color 0.5s ease;
+.page-title:hover {
+    background-color: #6F3A12; /* Darker brown */
 }
 
 h2 {
     color: #A0522D;
-    border-bottom: 2px solid #DEB887;
+    border-bottom: 2px solid #D9C3A3;
     padding-bottom: 5px;
     margin-top: 30px;
 }
 
 p {
     margin-bottom: 15px;
-
 }
 
-ul,ol {
+ul, ol {
     margin-bottom: 20px;
     padding-left: 30px;
 }
@@ -59,70 +54,72 @@ li {
 }
 
 img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     display: block;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;
 }
 
-.recipe-info{
-    background-color: #fff8DC;
+.recipe-info {
+    background-color: #FFF7E6;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 5px 5px rgba(53, 3, 3, 0.5);
+    box-shadow: 0 5px 5px rgba(80, 40, 20, 0.3);
 }
 
-.recipe-info p{
+.recipe-info p {
     margin: 10px 0;
 }
 
-.ingrediants, .tips, .instructions{
-    background-color: #ffffff;
+.ingrediants, .tips, .instructions {
+    background-color: #FFFFFF;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 5px rgba(80, 40, 20, 0.3);
+    border: 1px solid #D9C3A3;
 }
 
-.ingrediants li{
+.ingrediants li {
     padding: 5px 0;
 }
 
-.instructions li{
+.instructions li {
     padding: 8px 0;
 }
 
-.tips li:hover{
-    background-color: #97fda1;
-    transition: background-color 2s ease;
+.tips li:hover {
+    background-color: #FDE6C8; 
+    transition: background-color 0.4s ease;
 }
 
-.related{
-    background-color: #fff8DC;
+.related {
+    background-color: #FFF7E6;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid #D9C3A3;
+    box-shadow: 0 5px 5px rgba(80, 40, 20, 0.3);
 }
 
-.related a{
+.related a {
     text-decoration: none;
     color: #8B4513;
+    font-weight: bold;
 }
 
-.related a:hover{
-    background-color: #fcc9c9;
-    transition: background-color 2s ease;
+.related a:hover {
+    background-color: #F8D2A8;
+    transition: background-color 0.4s ease;
     text-decoration: underline;
 }
 
-footer{
-    text-align: center; 
+footer {
+    text-align: center;
     color: #777;
     margin-top: 4%;
-    border-top: 1px solid #333;
+    border-top: 1px solid #D9C3A3;
     padding-top: 20px;
-    font-size: 0.9pm;
-    
+    font-size: 0.9rem;
 }
